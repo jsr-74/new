@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 CORS(app)
 
-BREVO_API_KEY = "xsmtpsib-df0113930c4ca87d38c3ab80a82b20ef9766caf572be51336b3b2fece0e5f02c-tpD6M81WtIoJICtt"
+# BREVO_API_KEY = "xsmtpsib-df0113930c4ca87d38c3ab80a82b20ef9766caf572be51336b3b2fece0e5f02c-tpD6M81WtIoJICtt"
 
 
 
