@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # BREVO_API_KEY = "xsmtpsib-df0113930c4ca87d38c3ab80a82b20ef9766caf572be51336b3b2fece0e5f02c-tpD6M81WtIoJICtt"
-
+BREVO_API_KEY = os.getenv("BRV_KEY")
 
 
 @app.route("/")
@@ -47,7 +47,7 @@ def send_otp():
 
         headers = {
             "accept": "application/json",
-            "api-key":  "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",
+            "api-key":  BREVO_API_KEY,
             "content-type": "application/json"
         }
 
